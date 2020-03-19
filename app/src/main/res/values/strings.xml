@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Assys</string>
+    <string name="textbox_hint">Escribe un mensaje</string>
+    <string name="send_button">Enviar</string>
+    <string name="input_placeholder">Write a message</string>
+    <string name="welcomeMessage1">¡Hola!</string>
+    <string name="welcomeMessage2">Estamos encantados de tenerte aquí.</string>
+    <string name="welcomeMessage3">Vamos a empezar.</string>
+    <string name="welcomeButtonMessage">Empezar</string>
+    <string name="name">Apodo:</string>
+    <string name="ok">Ok</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">Usuario</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Apodo</string>
+    <string name="pref_default_display_name">Usuario</string>
+
+    <string name="pref_title_add_friends_to_messages">Curso</string>
+
+    <string-array name="pref_example_list_titles">
+        <item>Universidad</item>
+        <item>Bachillerato</item>
+        <item>FP</item>
+        <item>ESO</item>
+        <item>Primaria</item>
+    </string-array>
+
+    <string-array name="pref_example_list_values">
+        <item>2</item>
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>-2</item>
+    </string-array>
+
+
+    <string-array name="pref_idiomas">
+        <item>Español</item>
+    </string-array>
+
+    <string-array name="pref_pref_idiomas_values">
+        <item>0</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Hábitos</string>
+
+    <string name="alarmTitle">Activar Alarma</string>
+    <string name="alarmDesc">Añade una alarma auomaticamente a la hora especificada
+    </string>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Idioma</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>ç
+    <string name="logoTitle">Assys</string>
+
+
+</resources>

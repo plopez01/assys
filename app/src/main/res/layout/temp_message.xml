@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="10dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="60dp"
+    android:clipToPadding="false">
+
+    <View
+        android:id="@+id/avatar"
+        android:layout_alignParentLeft="true"
+        android:scaleType="centerInside"
+        android:background="@drawable/circle"
+        android:layout_width="34dp"
+        android:layout_height="34dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/avatar"
+        android:layout_alignTop="@+id/avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="4dp"
+        android:text="Ac Assistant"/>
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="207dp"
+        android:layout_height="18dp"
+        android:layout_alignStart="@+id/message_body"
+        android:layout_alignTop="@+id/message_body"
+        android:layout_alignEnd="@+id/message_body"
+        android:layout_alignBottom="@+id/message_body"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="77dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="204dp"
+        android:elevation="3dp"
+        android:gravity="top"
+        android:text="Soleado" />
+
+    <TextView
+        android:id="@+id/max"
+        android:layout_width="158dp"
+        android:layout_height="18dp"
+        android:layout_alignStart="@+id/message_body"
+        android:layout_alignTop="@+id/message_body"
+        android:layout_alignEnd="@+id/message_body"
+        android:layout_alignBottom="@+id/message_body"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="103dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="179dp"
+        android:elevation="3dp"
+        android:gravity="top"
+        android:text="Máxima: 18ºC" />
+
+    <TextView
+        android:id="@+id/direction"
+        android:layout_width="88dp"
+        android:layout_height="23dp"
+        android:layout_alignStart="@+id/message_body"
+        android:layout_alignTop="@+id/message_body"
+        android:layout_alignEnd="@+id/message_body"
+        android:layout_alignBottom="@+id/message_body"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="80dp"
+        android:elevation="3dp"
+        android:gravity="top"
+        android:text="SE"
+        android:textAlignment="viewStart"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/speed"
+        android:layout_width="118dp"
+        android:layout_height="23dp"
+        android:layout_alignStart="@+id/message_body"
+        android:layout_alignTop="@+id/message_body"
+        android:layout_alignEnd="@+id/message_body"
+        android:layout_alignBottom="@+id/message_body"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="116dp"
+        android:elevation="3dp"
+        android:gravity="top"
+        android:text="O"
+        android:textAlignment="viewStart"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/min"
+        android:layout_width="158dp"
+        android:layout_height="18dp"
+        android:layout_alignStart="@+id/message_body"
+        android:layout_alignTop="@+id/message_body"
+        android:layout_alignEnd="@+id/message_body"
+        android:layout_alignBottom="@+id/message_body"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="126dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="156dp"
+        android:elevation="3dp"
+        android:gravity="top"
+        android:text="Mínima: 6ºC" />
+
+    <TextView
+        android:id="@+id/message_body"
+        android:layout_width="match_parent"
+        android:layout_height="299dp"
+        android:layout_below="@+id/name"
+        android:layout_alignLeft="@+id/name"
+        android:layout_marginLeft="-1dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/rounded_rectangle_grey"
+        android:elevation="2dp"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="12dp"
+        android:text="14º"
+        android:textSize="48dp" />
+
+    <ImageView
+        android:id="@+id/sun"
+        android:layout_width="90dp"
+        android:layout_height="69dp"
+        android:layout_alignStart="@+id/message_body"
+        android:layout_alignTop="@+id/message_body"
+        android:layout_alignEnd="@+id/message_body"
+        android:layout_alignBottom="@+id/message_body"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="220dp"
+        android:elevation="2dp"
+        app:srcCompat="@drawable/ic_wb_sunny_black_24dp" />
+
+    <ImageView
+        android:id="@+id/cloud"
+        android:layout_width="95dp"
+        android:layout_height="67dp"
+        android:layout_alignStart="@+id/message_body"
+        android:layout_alignTop="@+id/message_body"
+        android:layout_alignEnd="@+id/message_body"
+        android:layout_alignBottom="@+id/message_body"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="211dp"
+        android:elevation="3dp"
+        app:srcCompat="@drawable/ic_wb_cloudy_black_24dp" />
+
+    <ImageView
+        android:id="@+id/speedImage"
+        android:layout_width="64dp"
+        android:layout_height="42dp"
+        android:layout_alignStart="@+id/message_body"
+        android:layout_alignTop="@+id/message_body"
+        android:layout_alignEnd="@+id/message_body"
+        android:layout_alignBottom="@+id/message_body"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="186dp"
+        android:layout_marginBottom="105dp"
+        android:elevation="2dp"
+        app:srcCompat="@drawable/ic_toys_black_24dp" />
+
+    <ImageView
+        android:id="@+id/sun3"
+        android:layout_width="53dp"
+        android:layout_height="26dp"
+        android:layout_alignStart="@+id/message_body"
+        android:layout_alignTop="@+id/message_body"
+        android:layout_alignEnd="@+id/message_body"
+        android:layout_alignBottom="@+id/message_body"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="197dp"
+        android:layout_marginEnd="192dp"
+        android:layout_marginBottom="76dp"
+        android:elevation="2dp"
+        app:srcCompat="@drawable/ic_explore_black_24dp" />
+
+</RelativeLayout>
